@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SharedPreferenceAssigment</string>
+    <string name="no_item">No item</string>
+    <string name="add_float_item">Add float item</string>
+    <string name="search">Search</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+</resources>

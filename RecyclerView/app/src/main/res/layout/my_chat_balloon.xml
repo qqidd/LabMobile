@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_bubble_chat"
+        android:paddingVertical="10dp"
+        android:paddingEnd="30dp"
+        android:paddingStart="10dp"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chatTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem"
+            android:textColor="#E4EFDD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:textColor="#E4EFDD"
+            android:text="20.20"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
